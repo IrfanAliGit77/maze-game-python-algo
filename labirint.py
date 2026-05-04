@@ -91,7 +91,7 @@ class Bullet(GameSprite):
 
 win_width = 700
 win_height = 500
-display.set_caption("Maze Game Dhafia")
+display.set_caption("Maze Game Dhafia -- From VS Code")
 window = display.set_mode((win_width, win_height))
 back = (114, 76, 142)
 w1 = GameSprite('platform2.png',win_width / 2 - win_width / 3, win_height / 2, 300, 50)
@@ -103,7 +103,7 @@ bullets = sprite.Group()
 barriers.add(w1)
 barriers.add(w2)
 
-packman = Player('hero.png', 5, win_height - 80, 80, 80, 0, 0)
+packman = Player('hero2.png', 5, win_height - 80, 80, 80, 0, 0)
 monster = Enemy('monster.png', win_width - 180, 140, 80, 80, 5 )
 monster2 = Enemy('monster2.png', win_width - 180, 260, 80, 80, 5 )
 monster3 = Enemy2('monster3.png', 50, 180, 80, 80, 5 )
