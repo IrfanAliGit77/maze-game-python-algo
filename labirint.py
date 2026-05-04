@@ -115,12 +115,11 @@ monsters.add(monster)
 monsters.add(monster2)
 monsters2.add(monster3)
 
-run = True
-finish = False
+run = True 
+finish = False 
 
 while run:
     time.delay(50)
-  
     for e in event.get():
         if e.type == QUIT:
             run = False
